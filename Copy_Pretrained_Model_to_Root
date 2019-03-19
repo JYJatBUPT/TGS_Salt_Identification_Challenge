@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /root
+mkdir .torch
+cd .torch
+mkdir models
+rm -rf ./*.pth
+cp /mnt/ml/YOLO_competition/resnet34-333f7ec4.pth /root/.torch/models/resnet34-333f7ec4.pth 
